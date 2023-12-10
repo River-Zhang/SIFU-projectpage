@@ -166,7 +166,7 @@ SIFU employs a cross-attention mechanism within the transformer, using SMPL-X no
   <div class="container">
     <div class="hero-body">
       <!-- Your image here -->
-      <img src="./static/images/model_pipeline.png" alt="teaser" width="150%" style="margin-left: 0px;">
+      <img src="./static/images/model_pipeline.png" alt="teaser" width="100%" style="margin-left: 0px;">
       <h2 class="content has-text-justified">
         Given a single image, SIFU constructs a 3D clothed human mesh with coarse textures using a Side-view Conditioned Implicit Function. This is followed by a step of 3D Consistent Texture Refinement to generate detailed textures. Specifically, \mn employs a side-view decoupling transformer to decouple features from the input image and the side-view normals of the SMPL-X model. Then, these features are combined at a query point through a hybrid prior fusion strategy, aiding in the reconstruction of both the mesh and its texture. Finally, the mesh with its basic textures undergoes a diffusion-based 3D consistent texture refinement, ensuring feature consistency in the latent space and resulting in high-quality textures. 
       </h2>
