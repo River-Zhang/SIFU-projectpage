@@ -1,6 +1,8 @@
 # Academic Project Page Template
 This is an academic paper project page template.
 
+Use this template for our project.
+
 
 Example project pages built using this template are:
 - https://www.vision.huji.ac.il/deepsim/
